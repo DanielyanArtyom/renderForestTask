@@ -1,0 +1,36 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.Wrapper{
+    display: flex;
+    flex-direction: column;
+    border:1px solid silver;
+    box-shadow: 0 0 31px 6px #b3b3b3;
+}
+
+.Header{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: grey;
+    color:white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.Content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Line{
+    border:1px solid silver;
+}
