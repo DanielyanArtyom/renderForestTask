@@ -6,7 +6,7 @@ function App() {
     <section className={styles.Container}>
       <div className={styles.Wrapper}>
         <div className={styles.Header}>
-          <h1>Question</h1>
+          <input type="text" className={styles.questionInput} placeholder="pls, input the question" />
         </div>
         <div className={styles.Content}>
           <ClientList Name={'Pros'} />

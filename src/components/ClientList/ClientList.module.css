@@ -28,8 +28,9 @@
 .List {
     max-height: 350px;
     overflow: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
+
 
 
 

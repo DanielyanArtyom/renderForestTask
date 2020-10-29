@@ -10,8 +10,6 @@
 }
 
 .Wrapper{
-    display: flex;
-    flex-direction: column;
     border:1px solid silver;
     box-shadow: 0 0 31px 6px #b3b3b3;
 }
@@ -21,9 +19,6 @@
     text-align: center;
     padding: 20px 0;
     background-color: grey;
-    color:white;
-    font-weight: 700;
-    font-size: 20px;
 }
 
 .Content{
@@ -33,4 +28,14 @@
 
 .Line{
     border:1px solid silver;
+}
+
+.questionInput{
+    font-weight: 700;
+    font-size: 20px;
+    width:500px;
+    height: 40px;
+    border:none;
+    outline: none;
+    padding-left: 15px;
 }
