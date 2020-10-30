@@ -32,6 +32,26 @@
 }
 
 
+.ListElement{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.ListElement p {
+    margin-right: 10px;
+}
+
+.inputText{
+    border: none;
+    font-size: 20px;
+}
+
+.inputText:focus{
+    border:2px solid #5c8aff;
+    outline: none;
+    border-radius: 5px;
+}
+
 
 
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ClientElement from './ClientElement/ClientELement'
+// import ClientElement from './ClientElement/ClientELement'
 import styles from './ClientList.module.css'
 
 const ClientList = (props) => {
@@ -40,7 +40,7 @@ const ClientList = (props) => {
                 </div>
                 <div className={styles.ListWrapper}>
                     <ul className={styles.List}>
-                        {stateArr.map((element, index) => {
+                        {/* {stateArr.map((element, index) => {
                             return <ClientElement
                                 key={Math.random()}
                                 stateArrEl={element}
@@ -49,7 +49,14 @@ const ClientList = (props) => {
                                 autofocus={element.isFocused}
                                 inputHandler={inputHandler}
                             />
+                        })} */}
+                        {stateArr.map((element, index) => {
+                            return <li className={styles.ListElement}>
+                                <p>{element.indexCounter}</p>
+                                <input type="text" className={styles.inputText} onChange={inputHandler(index)} onBlur={() => deFocus(index)} autoFocus={element.isFocused} />
+                            </li>
                         })}
+
                     </ul>
                 </div>
             </div>
